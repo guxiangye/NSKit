@@ -6,7 +6,7 @@
 先上一段代码给你看看:
 
 self.demoLabel<br> 
-    .ns_init </br>
+    .ns_init<br> 
     .title(@"谷工，你好啊，最近忙吗？这周会空一点吗？可以耽误你们半个小时介绍一下公司吗？")<br> 
     .textColor([UIColor blackColor])<br> 
     .textAlignment(@(NSTextAlignmentCenter))<br> 
@@ -14,5 +14,5 @@ self.demoLabel<br>
     .lineNumber(@(2))<br> 
     .attributed(@"这周", @{NSForegroundColorAttributeName:[UIColor redColor]})<br> 
     .attributed(@"耽误", @{NSFontAttributeName:[UIFont systemFontOfSize:17]})<br> 
-    .attributed(@"谷工，你好啊，最近忙吗？这周会空一点吗？可以耽误你们半个小时介绍一下公司吗？", @{NSParagraphStyleAttributeName:paragraphStyle})
+    .attributed(@"谷工，你好啊，最近忙吗？这周会空一点吗？可以耽误你们半个小时介绍一下公司吗？", @{NSParagraphStyleAttributeName:paragraphStyle})<br> 
     .addOnView(self.view);
